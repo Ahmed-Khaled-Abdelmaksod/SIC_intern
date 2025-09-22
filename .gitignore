@@ -1,3 +1,3 @@
-Http_task/.venv
-MQTT_Task/.venv
-CoAP_task/.venv
+protocols_task/Http_task/.venv
+protocols_task/MQTT_Task/.venv
+protocols_task/CoAP_task/.venv
