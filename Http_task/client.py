@@ -2,8 +2,8 @@ import requests
 import time
 count = 15
 while True:
-    temp = requests.get('http://127.0.0.1:5000/temp/')
-    print("status code : ${temp.status_code},Temp : ${temp}")
+    temp = requests.get('http://127.0.0.1:5000/temp')
+    print(f"status code : {temp.status_code},Temp : {temp.text}")
     print("-----------------------------------------------")
     count += 1
     payload = dict(value=f'{count}')
